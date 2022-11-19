@@ -1,0 +1,588 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+
+    
+}
+#Home
+{
+    background-color: lightyellow;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+/* 
+section {
+    
+} */
+.span-1-of-4 {
+    width: 22.8%;
+}
+.col {
+    display: block;
+    float: left;
+    margin: 1% 0px 1% 1.6%;
+}
+#features
+{
+    padding: 80px 0;
+}
+#features h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#features h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#fea h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+label.logo{
+      margin: 0px 20px;  
+    font-size: 2.7rem;
+    color:white;
+    font-weight: bold;
+    
+}
+#Home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 400px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background:url("../images/background.jpg")  ;
+     animation: animate 29s ease-in-out 5s infinite alternate-reverse forwards;
+    color: white;
+    
+}
+@keyframes animate
+{
+    0%
+    {
+        background:url("../images/bck1.jfif")  ;
+    }
+    20%{
+        background:url("../images/images\ 6.jfif") ;
+    }
+    40%
+    {
+        background:url("../images/drinks.jpg")  ;
+    }
+    60%
+    {
+        background:url("../images/image8.jpg")  ;
+    }
+    80%
+    {
+        background:url("../images/images\ 3.jfif") ;
+    }
+    100%
+    {
+        background:url("../images/images\ 7.jfif")  ;
+    }
+}
+.fade-inout
+{
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  
+}
+
+#Home::before
+{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;  
+    z-index: -4;
+   opacity:0.85;
+}
+.h-primary
+{
+   font-size: 2.8rem;
+   padding: 12px;
+}
+.welcomeimage
+{
+    top: 40%;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding:12px 12px;
+}
+:root
+{
+    --navbar-height:59px;
+}
+nav
+{
+    background-color: black;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    height:auto;
+    width: 100%;
+    opacity: 80%;
+}
+nav ul 
+{
+    float: right;
+    padding: 20px 0;
+}
+
+nav li
+{
+    display: inline-block;
+    font-size: 1.2rem;
+   
+}
+nav a
+{
+    
+    font-size: 1rem;
+    border-radius: 20px;
+    padding: 15px 60px;
+    font-weight: bold;
+    color: white;
+}
+nav a:hover
+{
+    color: black;
+    background-color: white;
+    transition: 2s;
+}
+
+
+/* SERVICES section */
+
+.services
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+}
+.serv
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+    
+}
+.servbox
+{
+    
+    border: 2px solid rebeccapurple;
+    padding: 34px;
+    margin: 3px 20px;
+    border-radius: 28px;
+    background:thistle;
+}
+.servbox img
+{
+   height: 170px;
+   margin: auto;
+   display: block;
+}
+.secondary
+{
+    font-weight: bold;
+    margin-top: 30px;
+}
+.viewservices
+{
+    font-size: medium;
+    text-align: left;
+    margin-left: 15px;
+}
+
+/* serach box */
+
+#btn
+{   
+    
+    border-radius: 80px;
+    border: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 500px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+.checkbtn
+{
+    color: white;
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+    display: none;
+    
+}
+
+#check
+{
+    
+    display: none;
+}
+
+
+
+
+
+/* contact section */
+
+#contact
+{
+    background: url(../images/g.png);
+   
+box-sizing: border-box;
+font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+text-decoration: none;
+list-style: none;
+}
+
+
+
+.contact
+{
+    position: relative;
+    min-height: 120vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2
+{
+ font-size: 36px;
+ font-weight: 500;
+ color:black;
+}
+.contact .content p
+{
+ font-weight: 300;
+ color:black;
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box
+{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container .contactinfo .box .icon
+{
+    min-width: 60px;
+    height: 60px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 24px;
+}
+.container .contactinfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+    flex-direction:column ;
+    font-weight: 300;
+}
+.container .contactinfo .box .text h3
+{
+    font-weight: 500;
+    color:blueviolet;
+}
+.contactform
+{
+    width: 40%;
+    padding: 40px;
+    background: white;
+}
+.contactform h2
+{
+   font-size: 30px;
+   color: #333;
+   font-weight: 500;
+}
+.contactform .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: black;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span
+{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactform .inputbox  input:focus ~ span,
+.contactform .inputbox  input:valid ~ span,
+.contactform .inputbox  textarea:focus ~ span,
+.contactform .inputbox  textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox  input[type="submit"]
+{
+ width: 100px;
+ background: #00bcd4;
+ color: #fff;
+ border: none;
+ cursor: pointer;
+ padding: 10px;
+ font-size: 18px;
+
+}
+
+/* aboutus section */
+
+
+
+
+
+#aboutus
+{
+      background-color:azure;
+      padding-top: 100px;
+      
+}
+.aboutus h2 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    /* padding-left: 20px; */
+    padding-top: 150px;
+    color:darkcyan;
+    
+}
+.aboutus h2::after
+{
+    content: "";
+    height: 5px;
+    width: 100px;
+    background-color: darkcyan;
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+
+}
+
+#aboutus p {
+    letter-spacing: 1.5px;
+    padding: 11px 40px;
+    font-size: 17px;
+    font-family:sans-serif;
+}
+
+#aboutus h3{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 40px;
+    color: darkcyan;
+}
+#aboutus .image
+{
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+
+
+@media (max-width: 1295px)
+{
+    .contact
+    {
+        padding: 70px;
+    }
+    .container
+    {
+       flex-direction: column;
+    }
+    .container .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contactform
+    {
+        width: 100%;
+    }
+    .aboutus
+    {
+        width: 80%;
+        display: block;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .image
+    {
+        height: 500px;
+        width: 50px;
+        padding: 0 10px;
+    }
+    
+.checkbtn
+{
+display:block;
+float:right;
+margin: 10px 120px;
+
+}
+label.logo
+{
+ font-size: 1.8rem;
+}
+nav
+{ 
+ background-color:black;
+ opacity: 100%;
+}
+
+nav ul{
+width: 100%;
+height:100vh;
+background-color: #2f3640;
+position: fixed;
+top:50px ;
+left: -100%;
+text-align: center;
+
+
+}
+nav li  
+{
+display: block;
+margin: 50px 0px;
+line-height: 40px;
+}
+nav a{
+font-size: 20px;
+}
+nav a:hover
+{
+border: none;
+color: black;
+transition: 2s;
+}
+#check:checked ~ ul{ 
+left: 0;
+}
+} 
